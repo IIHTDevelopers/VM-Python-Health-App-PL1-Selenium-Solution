@@ -6,6 +6,9 @@ import time
 from pytest_selenium_pom.tests.pages.LoginPage import LoginPage
 from ..tests.TestUtils import TestUtils
 from pytest_selenium_pom.tests.pages.VerificationPage import VerificationPage
+from ..tests.pages.LoginPage import LoginPage
+from ..tests.TestUtils import TestUtils
+from ..tests.pages.VerificationPage import VerificationPage
 
 
 logging.basicConfig(level=logging.INFO)
